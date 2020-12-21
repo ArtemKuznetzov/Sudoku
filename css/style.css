@@ -1,0 +1,195 @@
+body {
+    background-color:  rgb(240, 239, 239);
+}
+.navbarfirst {
+    width: 90%;
+    height: 160px;
+    
+}
+.navbar-brand {
+    width: 74% !important; 
+    
+}
+.search_on_site:after {content:""; clear:both; display:table}
+.search_on_site form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+}
+.search_on_site input {
+  width: 240px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: white;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+  
+}
+.search_on_site input:focus {
+  width: 300px;
+}
+.search_on_site button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+.search_on_site button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+.navbar-style {
+    
+    font-family: 'Space Grotesk', sans-serif;
+}
+.main-block {
+    width: 100%;
+    height: 1590px;
+    background: white;
+    
+
+}
+.sudoku-main {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 450px;
+  
+}
+.sudoku-crossword {
+  width: 60%;
+  height: 400px;
+}
+.sudoku-numbers {
+  width: 90%;
+  height: 400px;
+ 
+  
+}
+.sudoku-crossword-main {
+  width: 60%;
+  height: 400px;
+  
+}
+.sudoku-numbers-main {
+  width: 90%;
+  height: 400px;
+}
+.rules {
+  width: 90%;
+  
+  margin: 0 auto;
+  margin-top: 55px;
+
+}
+.result {
+  width: 90%;
+  height: 200px;
+  padding-top: 130px;
+}
+.sudoku-gamearea {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px; 
+  height: 800px;
+  font-size: 40px;
+  margin-top: 150px;
+}
+.sudoku-part {
+  border: 1px solid #324b4e;
+  margin: 1px;
+  padding: 1px;
+  width: calc(100%/3 - 2px);
+  height: calc(100%/3 - 2px);
+  display: flex;
+  flex-wrap: wrap;
+}
+.sudoku-cell {
+  text-align: center;
+  font-size: 40px;
+  width: calc(100%/3 - 2px);
+  height: calc(100%/3 - 2px);
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 1px;
+  background: #70dfa8;
+}
+.sudoku-cell.start-cell {
+  color: gray;
+}
+.sudoku-cell.supported-cell {
+  background: #72dde7;
+}
+.sudoku-cell.selected-cell {
+  background: #dda361;
+}
+.sudoku-cell.important-cell {
+  color: #9257f1;
+}
+.sudoku-cell.start-cell.error {
+  color: #d64949e1;
+}
+.sudoku-cell.error {
+  color: red;
+}
+
+.buttons-block {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.sudoku {
+  margin: 0 auto;
+}
+
+
+.difficult-button {
+    width: 100%;
+    height: 70px;
+    background: url(../img/Red_Button.png) no-repeat center center fixed;
+    background-size:cover; 
+    color: #ffffff;font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.33px;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.difficult-button:hover {
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.73);
+  border: 2px solid #37414e;
+  overflow: hidden;
+  cursor: default;
+  text-decoration: none;
+}
+
+.rules h3,
+.rules p {
+  text-align: center;
+}
+
+.rules-container {
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+
+}
+
+.timer {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+  
+}
