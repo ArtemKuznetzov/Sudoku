@@ -1,2 +1,2 @@
 # Sudoku
-This is my project on js
+This is my js project that I made in JS course
